@@ -9,11 +9,11 @@ import { CheckOutComponent } from './features/check-out/check-out.component';
 import { ContactUsComponent } from './features/contact-us/contact-us.component';
 
 export const routes: Routes = [
-    { path: '', component: HomeComponent },
-    { path: 'guest-services', component: GuestServicesComponent },
-    { path: 'safety-tips', component: SafetyTipsComponent },
-    { path: 'evacuation-procedures', component: EvacuationProceduresComponent },
-    { path: 'check-in', component: CheckInComponent },
-    { path: 'check-out', component: CheckOutComponent },
-    { path: 'contact-us', component: ContactUsComponent },
+  { path: '', component: HomeComponent },
+  { path: 'guest-services', component: GuestServicesComponent },
+  { path: 'safety-tips', component: SafetyTipsComponent },
+  { path: 'evacuation-procedures', component: EvacuationProceduresComponent },
+  { path: 'check-in', component: CheckInComponent },
+  { path: 'check-out', component: CheckOutComponent },
+  { path: 'contact-us', component: ContactUsComponent },
 ];

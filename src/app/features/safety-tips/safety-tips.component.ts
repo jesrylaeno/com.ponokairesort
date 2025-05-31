@@ -4,8 +4,6 @@ import { Component } from '@angular/core';
   selector: 'app-safety-tips',
   imports: [],
   templateUrl: './safety-tips.component.html',
-  styleUrl: './safety-tips.component.scss'
+  styleUrl: './safety-tips.component.scss',
 })
-export class SafetyTipsComponent {
-
-}
+export class SafetyTipsComponent {}

@@ -1,6 +1,7 @@
 /* src/styles.css or src/styles.scss */
 
-html, body {
+html,
+body {
   height: 100%;
   margin: 0 5%;
   font-family: Roboto, "Helvetica Neue", sans-serif;
@@ -9,15 +10,27 @@ html, body {
 }
 
 /* Optional: Apply font size to all common elements */
-p, a, span, div, h1, h2, h3, h4, h5, h6, button, input, textarea, label {
+p,
+a,
+span,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button,
+input,
+textarea,
+label {
   font-size: 1rem;
 }
 
 /* You can still override specific components with more specific styles if needed */
 hr {
-    border: none;
-    height: 1px;
-    background: #fffefe;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  border: none;
+  height: 1px;
+  background: #fffefe;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
 }
-

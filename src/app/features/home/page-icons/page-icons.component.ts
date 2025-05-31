@@ -4,8 +4,6 @@ import { Component } from '@angular/core';
   selector: 'app-page-icons',
   imports: [],
   templateUrl: './page-icons.component.html',
-  styleUrl: './page-icons.component.scss'
+  styleUrl: './page-icons.component.scss',
 })
-export class PageIconsComponent {
-
-}
+export class PageIconsComponent {}

@@ -4,8 +4,6 @@ import { Component } from '@angular/core';
   selector: 'app-guest-services',
   imports: [],
   templateUrl: './guest-services.component.html',
-  styleUrl: './guest-services.component.scss'
+  styleUrl: './guest-services.component.scss',
 })
-export class GuestServicesComponent {
-
-}
+export class GuestServicesComponent {}
