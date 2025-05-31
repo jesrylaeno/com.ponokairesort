@@ -1,0 +1,28 @@
+.mat-toolbar {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.mat-toolbar img {
+    margin-right: 1rem;
+}
+
+.spacer {
+    flex: 1 1 auto;
+}
+
+.mat-toolbar a {
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-left: 1rem;
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.mat-toolbar a:hover,
+.mat-toolbar a:focus {
+    color: #a74242;
+    text-decoration: underline;
+}
